@@ -19,10 +19,11 @@ a{
     font-family: "Martian Mono";
 }
 
-#Datum-locatie{
-    font-family: "Martian Mono"; 
-}
-
 #Thema-locatie{
     font-family: "Martian Mono"; 
 }
+
+.Datum-locatie{
+    font-family: "Martian Mono"; 
+}
+
