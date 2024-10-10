@@ -29,6 +29,7 @@ body{
     background: none;
     color: #364bf7;
     
+    
 }
 
 h1{
@@ -74,6 +75,34 @@ a{
   
 }
 
+.UX-icon{
+    font-family: "Martian Mono";
+    font-size: 14px;
+    font-weight:normal;
+    background-color: rgb(255, 255, 255);
+    width: 22px;
+    height: 16px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    letter-spacing: -4%;
+
+}
+
+.HR-icon{
+    font-family: "Martian Mono";
+    font-size: 14px;
+    font-weight:normal;
+    background-color: rgb(255, 255, 255);
+    width: 22px;
+    height: 16px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    letter-spacing: -4%;
+
+}
+
 .intro{
     font-size: 18px;
 }
@@ -82,7 +111,7 @@ a{
     font-family: "Martian Mono";
 }
 
-#Thema-locatie{
+.Thema-locatie{
     font-family: "Martian Mono"; 
 }
 
@@ -122,3 +151,6 @@ a{
 li{
     list-style-type: none;
 }
+
+
+
