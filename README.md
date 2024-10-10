@@ -15,6 +15,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fd
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+Welkom bij de pagina 'Events'. Een pagina dat events in of buiten uw buurt weergeeft. De pagina laat zien waar, wanneer en hoelaat een bepaald evenement zal plaatsvinden. Met een gebruiksvriendelijk ontwerp kun je eenvoudig door categorieën bladeren en evenementen filteren op datum en locatie. Grote aankomende events worden weergegeven met aantrekkelijke afbeeldingen en een informatieve omschrijving.
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
