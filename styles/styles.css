@@ -1,7 +1,9 @@
 /* CSS */
+
 html{
 background-color: white;
 } 
+
 
 body{
     font-family: "Archivo", Arial, Arial, Helvetica, sans-serif;
@@ -9,44 +11,28 @@ body{
     margin: 16px;
 }
 
-
-header{
-    position: sticky;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+header {
+    background-color: #ffffff;
 }
 
-a:nth-of-type(1){
-    position: relative;
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-
-
-.Bovenpagina{
-   border-color: black;
+li{
+    list-style: none;
 }
 
-.tabs{
+a{
     font-family: "Martian Mono";
-    font-size: 14px;
-    background: none;
-    color: black;
     text-decoration: none;
-    display:flex;
-  justify-content:space-between;
-  align-items:center;
+    color: #222226;
+    font-size: 14px;
 }
 
-.Refresh{
-    font-family: "Martian Mono";
-    font-size: 14px;
-    background: none;
-    color: black;
-    text-decoration: none;
-    place-content: center;
-    text-align: center;
-}
+
 
 .more-events{
     font-family: "Martian Mono";
@@ -70,9 +56,7 @@ text-align: center;
 
 }
 
-a{
-    font-family: "Martian Mono";
-}
+
 
 .DDD-icon{
     font-family: "Martian Mono";
@@ -175,9 +159,7 @@ a{
 
 }
 
-li{
-    list-style-type: none;
-}
+
 
 
 
