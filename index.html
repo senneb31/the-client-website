@@ -22,12 +22,20 @@
 
     <body>
             <header>
-                <img src="dda-logo-whiteDDA-logo.svg" alt="DDA logo" class="DDA-logo">
-                <div class="tabs">  
+                <img src="dda-logo-whiteDDA-logo.svg" alt="DDA logo" class="DDA-logo"> 
                     <nav class="navbar">
+                        
+                        <button aria-hidden="true" class="burgermenu">
+                        <img src="Button.svg" alt="hamburger menu">
+                        </button>
+                           
+                        <button aria-hidden="true" class="close-menu">
+                            <img src="kruisje.svg" alt="close menu">
+                        </button>    
+                        <div class="tabs">          
                         <ul class="nav-menu">
                             <li class="nav-item"> 
-                                <a class="tab-item" href="Over-ons">OVER ONS</a> 
+                                <a class="nav-list" href="Over-ons">OVER ONS</a> 
                             </li>
 
                             <li class="nav-item"> 
@@ -73,6 +81,7 @@
             en laatste ontwikkelingen.</p>
     </div>  
 
+<div class="articles">
     <!-- DUTCH DIGITAL DAY: THE 10TH EDITION -->
     <article class="Article-1">
     <div class="Article-1-1">
@@ -116,6 +125,7 @@
                 </button>
             </div>
     </div>
+</div>
     </article>
 
     <!-- Zoekbalk -->   
@@ -411,7 +421,7 @@
     <!-- Wij bedanken onze trouwe partners -->
     <div class="Trouwe-partners">
         <p class="h3">Wij bedanken onze trouwe partners</p>
-        <button class="aanmelden-button" type="button">WORD PARTNER
+        <button class="word-partner" type="button">WORD PARTNER
             <img src="IconPijl-rechts-zwart.svg" alt="Refresh pijltje">
         </button>
     </div>
@@ -419,24 +429,32 @@
     <!-- Plaatjes van de partners -->
     <div class="Partner-images">
 
-        <img src="rootnet.jpg" alt="Rootnet logo">
-        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo">
-        <img src="image-4Amac.jpg" alt="Amac logo">
-        <img src="rootnet.jpg" alt="Rootnet logo">
-        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo">
-        <img src="image-4Amac.jpg" alt="Amac logo">
-        <img src="rootnet.jpg" alt="Rootnet logo">
-        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo">
-        <img src="image-4Amac.jpg" alt="Amac logo">
-
+        <img src="rootnet.jpg" alt="Rootnet logo" style="border: solid 1px black;">
+        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo"style="border: solid 1px black">
+        <img src="image-4Amac.jpg" alt="Amac logo"style="border: solid 1px black">
+        <img src="rootnet.jpg" alt="Rootnet logo"style="border: solid 1px black">
+        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo"style="border: solid 1px black">
+        <img src="image-4Amac.jpg" alt="Amac logo"style="border: solid 1px black">
+        <img src="rootnet.jpg" alt="Rootnet logo"style="border: solid 1px black">
+        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo"style="border: solid 1px black">
+        <img src="image-4Amac.jpg" alt="Amac logo"style="border: solid 1px black">
+        <img src="rootnet.jpg" alt="Rootnet logo" style="border: solid 1px black;">
+        <img src="image-4Ictrecht.jpg" alt="ICTrecht logo"style="border: solid 1px black">
+        <img src="image-4Amac.jpg" alt="Amac logo"style="border: solid 1px black">
+        
     </div>
 
     <!-- Onderkant pagina -->
-    <div class="Extra-links">
+<div class="onderpagina">
+    <div class="logo-inlog">
         <img src="dda-logo-whiteDDA-logo.svg" alt="DDA logo">
 
-        <a href="Inloggen">INLOGGEN</a> <img src="IconPijl-rechts.svg" alt="pijltje naar rechts">
+        <button class="inloggen-button" type="button">INLOGGEN
+            <img src="IconPijl-rechts.svg" alt="Pijltje naar rechts">
+        </button>
+    </div>
 
+    <div class="Extra-links">
         <a href="Over-ons">Over ons</a> 
         <a href="Events">Events</a> 
         <a href="Publicaties">Publicaties</a> 
@@ -444,36 +462,41 @@
         <a href="Vacatures">Vacatures</a> 
         <a href="Algemene-voorwaarden">Algemene voorwaarden</a> 
         <a href="Privacybeleid">Privacybeleid</a>
-        
-        <ul>
-            <li>
-                Dutch Digital Agencies
-            </li>
+    </div>  
+    
+        <ul class="adres-contact">
+            <div class="adres">
+                <li id="DDA-title">
+                    Dutch Digital Agencies
+                </li>
 
-            <li>
-                Overhoeksplein 1
-            </li>
+                <li>
+                    Overhoeksplein 1
+                </li>
 
-            <li>
-                1031 KS Amsterdam
-            </li>
+                <li>
+                    1031 KS Amsterdam
+                </li>
+            </div>
+            <div class="contact">
+                <li>
+                    (0)85 4010391
+                </li>
 
-            <li>
-                (0)85 4010391
-            </li>
-
-            <li>
-                info@dutchdigitalagencies.com
-            </li>
+                <li>
+                    info@dutchdigitalagencies.com
+                </li>
+            </div>
         </ul>
-
     </div>
-        <footer class="Social-links">
-            <a href="Instagram">Instagram</a>
-            <a href="Facebook">Facebook</a>
-            <a href="LinkedIn">LinkedIn</a>
-            
-            <p>Copyright © 2023 Dutch Digital Agencies</p>
+    </div>
+        <footer class="footer">
+        <div class="social-links">
+            <li href="Instagram">Instagram</li>
+            <li href="Facebook">Facebook</li>
+            <li href="LinkedIn">LinkedIn</li>
+        </div>    
+            <p class="Copyright">Copyright © 2023 Dutch Digital Agencies</p>
         </footer>
     </body>
 </html>
